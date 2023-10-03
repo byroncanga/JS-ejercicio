@@ -1,1 +1,19 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titulo {
+  color: black;
+}
+.respuesta {
+  color: green;
+}
+button {
+  border: 0;
+  background-color: blue;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 12px;
+}
